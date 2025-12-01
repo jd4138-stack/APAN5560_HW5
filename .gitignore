@@ -1,6 +1,7 @@
 # ---- Runtime artifacts (keep out of Git) ----
 datasets/
 checkpoints/
+HW5/checkpoints/
 
 # ---- Python build / bytecode ----
 __pycache__/
@@ -49,3 +50,8 @@ logs/
 *.log
 *.tmp
 .cache/
+
+# Model weights
+*.pt
+*.pth
+*.bin
